@@ -1,3 +1,5 @@
+// Sass for the example 3 column layout:
+// =====================================
 .example-layout {
   display:flex;
   flex-direction: column;
@@ -41,5 +43,32 @@ footer {
     .col-3 {
       width:auto;
     }
+  }
+}
+
+// Sass for the example media object:
+// ===================================
+.example-media {
+  .media {
+    display:flex;
+    max-width: 300px;
+    border:2px solid black;
+    img {
+      margin-right:10px;
+    }
+
+    .content {
+      flex: 1;
+    }
+  }
+}
+
+// Sass for the example search group:
+// ===================================
+.search-group {
+  display:flex;
+  max-width: 300px;
+  input {
+    padding: 10px;
   }
 }

@@ -53,3 +53,26 @@ footer {
     .container .col-2,
     .container .col-3 {
       width: auto; } }
+.example-media .media {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 300px;
+  border: 2px solid black; }
+  .example-media .media img {
+    margin-right: 10px; }
+  .example-media .media .content {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+
+.search-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 300px; }
+  .search-group input {
+    padding: 10px; }

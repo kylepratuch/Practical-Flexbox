@@ -30,5 +30,19 @@ footer {
     .container .col-2,
     .container .col-3 {
       width: auto; } }
+.example-media .media {
+  display: flex;
+  max-width: 300px;
+  border: 2px solid black; }
+  .example-media .media img {
+    margin-right: 10px; }
+  .example-media .media .content {
+    flex: 1; }
+
+.search-group {
+  display: flex;
+  max-width: 300px; }
+  .search-group input {
+    padding: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
