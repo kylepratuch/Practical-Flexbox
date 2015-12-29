@@ -6,7 +6,7 @@ Terminal:
   gem install Sass
   sass -v
   ```
-At this point, you should setup your desired sass file structure. Mine is just an example.
+At this point, you should setup your desired Sass file structure. Mine is just an example.
 Now, tell Sass to watch an input .scss to compile to an output .css:
 `sass --watch scss/styles.scss:css/styles.css`
 
